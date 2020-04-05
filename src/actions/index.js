@@ -28,7 +28,7 @@ export const getSpecificUser = (userId) => {
         try {
             const result = await Axios.get(`${BASE_API_URL}?id=${userId}`);
             const { data } = result;
-            // sorry about that (user: data.results[0]) but the service is always returning the list of random users even I'm passing some specific id
+            // sorry about that (user: data.results[0]) but the service is always returning the list of random users even if I'm passing some specific id
             dispatch(setSpecificUser(data.results[0]));
 
             return result;
