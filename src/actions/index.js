@@ -1,6 +1,7 @@
 import Axios from 'axios';
 
 import * as Types from '../constants/actionTypes';
+
 import { BASE_API_URL, USERS_FETCH_LIMIT } from "../constants/common";
 
 export const getUsersList = () => {
