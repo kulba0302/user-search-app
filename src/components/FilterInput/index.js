@@ -47,7 +47,7 @@ const FilterInput = () => {
             <IconButton
                 color="primary"
                 className={classes.iconButton}
-                aria-label="directions"
+                aria-label="clear"
                 onClick={() => dispatch(clearFilter())}
                 disabled={!filterRequest}
             >

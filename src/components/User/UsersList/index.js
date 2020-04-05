@@ -15,7 +15,7 @@ import FilterInput from '../../FilterInput';
 const useStyles = makeStyles(() => ({
     root: {
         display: 'flex',
-        justifyContent:'space-between',
+        justifyContent:'space-around',
         flexWrap: 'wrap',
     },
     link: {
